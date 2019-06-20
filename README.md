@@ -1,5 +1,5 @@
 
-## Generate a dependency graph tool for Unity Assembly Definition
+## Generate a dependency graph for Unity Assembly Definition
 
 ![](https://i.gyazo.com/dfb29b0239c945f8964881fecd337ac0.png)
 

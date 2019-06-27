@@ -24,7 +24,7 @@ namespace Asmdef2Uml.Transpiler.PlantUml
             write((r) => {
                 foreach (var d in r.Dependencies)
                 {
-                    Console.WriteLine($"    {r.Assembly.AssemblyName}..>{d.Assembly.AssemblyName}");
+                    Console.WriteLine($"    {d.Assembly.AssemblyName}<..{r.Assembly.AssemblyName}");
                 }
             });
             Console.WriteLine("@enduml");
